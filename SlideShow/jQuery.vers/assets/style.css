@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+:root {
+    /* color */
+    --color-black: #222328;
+    --color-white: #ffffff;
+    --color-sky: #99d0ffe8;
+
+  /* annimation */
+--animation-duration: 1000ms;
+--o-transform: translateX(0);
+}
+
+/* 리셋 */
+* {padding: 0; margin: 0; box-sizing: border-box;}
+ul {list-style: none;} 
+a {text-decoration: none;}
+img{vertical-align: bottom;}
+
+body {
+	background-color: rgba(27,31,34,0.85);
+	font-family: 'Nanum Pen Script', cursive;
+}
+
+h1 {
+	font-size: 3rem;
+	line-height: 1.4;
+	letter-spacing: 0.5rem;
+	text-align: center;
+	color: var(--color-white); 
+	margin-top: 50px;
+}
+
+/****** 컨테이너 *******/
+.container {
+    width: 100%; 
+    height: 55vh; 
+	margin-top: 10px;
+}
+
+/******이미지 슬라이드 *******/
+.slide-container {
+    width: 100%;
+    height: 100%;
+    position: relative; 
+    overflow: hidden;
+	
+}
+
+.slide-container > .slides { 
+    position: absolute; 
+    left: 50%; 
+    top: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 1px 2px 10px 5px white;
+	
+}
+
+.slides figure{
+    position: relative;
+    opacity: 0; 
+    transition: var(--animation-duration) ease;
+    cursor: pointer;
+}
+
+.slides figure.active{ opacity:1; }
+
+/******이미지 슬라이드 문구 *******/
+.slides figcaption {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%; 
+    padding: 20px;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: var(--color-white);
+    font-size: 18px;
+}
+.slides figcaption em {
+    display: block;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: var(--animation-duration) ease;
+    transform:translateX(-50px);
+    color: var(--color-white);
+    opacity: 0;
+	letter-spacing: 0.1rem;
+}   
+
+.slides figcaption span {
+    
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transition: all 1s 0.6s ease;
+    transform:translateX(-50px);
+    color: var(--color-white);
+    opacity: 0;
+}
+
+.slides figure.active figcaption em{ opacity: 1; transform: var(--o-transform);}
+.slides figure.active figcaption span{ opacity: 1; transform: var(--o-transform);}
+
+/******이미지 슬라이드 버튼 *******/
+.slide-container .btn_wrap {
+    width: 50%;
+    position: absolute; 
+    left: 50%; 
+    top: 45%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    
+}
+
+.slide-container .btn_wrap i {
+    display: inline-block;
+    color: var(--color-white);
+    font-size: 45px; 
+}
+
+.slide-container .btn_wrap .next { float: right;}
+
+/****** 페이지 *******/
+.slide-container .pagination { 
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    text-align: center;
+}
+.slide-container .pagination li { display: inline-block; }
+.slide-container .pagination li a {  
+    display: block;
+    width: 10px; 
+    height: 10px;
+    border-radius: 5px;
+    background: var(--color-white);
+    text-indent: -9999px;
+}
+
+.pagination li.active a{ 
+    width: 20px; 
+    background-color: var(--color-sky); 
+}
