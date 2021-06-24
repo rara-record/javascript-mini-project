@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+:root {
+    /* color */
+--color-white: #ffffff;
+--color-gray: #776e65;
+}
+
+#table {
+    border-collapse: collapse;
+    user-select: none;
+}
+#table td {
+    border: 10px solid #bbada0;
+    width: 116px;
+    height: 128px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+#score {
+    user-select: none;
+}
+.color-2 { background-color: #eee4da; color: var(--color-gray);}
+.color-4 { background-color: #eee1c9; color: var(--color-gray);}
+.color-8 { background-color: #f3b27a; color: var(--color-white);}
+.color-16 { background-color: #f69664; color: var(--color-white);}
+.color-32 { background-color: #f77c5f; color: var(--color-white);}
+.color-64 { background-color: #f75f3b; color: var(--color-white);}
+.color-128 { background-color: #edd073; color: var(--color-gray);}
+.color-256 { background-color: #edcc62; color: var(--color-gray);}
+.color-512 { background-color: #edc950; color: var(--color-gray);}
+.color-1024 { background-color: #edc53f; color: var(--color-gray);}
+.color-2048 { background-color: #edc22e; color: var(--color-gray);}
