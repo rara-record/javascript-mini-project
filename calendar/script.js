@@ -57,7 +57,9 @@ const calendar = function() {
         } else {
             tag += `<div class="day"> ${i} </div>`;
         }
+        days.innerHTML = tag;
     }
+    
 
     // 마지막 날짜 후 공백
     for (let n = 1; n <= nextDays; n+=1) {
