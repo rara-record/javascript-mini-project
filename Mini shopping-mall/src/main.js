@@ -49,15 +49,14 @@ function onButtonClick(event, items) {
     return;
   }
 
+
   // 필터링 할 수 있는 정보가 들어있다면, 실행
-  //const filtered = items.filter(item => item[key] === value);
-  const filtered = items.filter(function(item) {
-    console.log(item);
-    return item[key] === value;
-  })
-  console.log(filtered);
-  displayItems(filtered); // 
+  const filtered = items.filter(item => item[key] === value);
+  displayItems(filtered);
+
+
 }
+
 
   // main
   loadItems()
