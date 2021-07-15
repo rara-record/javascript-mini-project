@@ -19,12 +19,12 @@ HTML, Vanilla JS, CSS 연습용 웹사이트
 
 ### [all clothes]
 
-<img src="C:\Users\O.C User\Desktop\bora\Study\JavaScript\Dream Coding\MINI-SHOPPING\Mini shopping-mall\all clothes.JPG" alt="all clothes" style="zoom: 67%;" />
+![all clothes](D:\git\project\project\Mini shopping-mall\all clothes.JPG)
 
 ### [filter by Yellow]
 
-<img src="C:\Users\O.C User\Desktop\bora\Study\JavaScript\Dream Coding\MINI-SHOPPING\Mini shopping-mall\filter1.JPG" alt="filter1" style="zoom: 67%;" />
+![filter1](D:\git\project\project\Mini shopping-mall\filter1.JPG)
 
 ### [filter by skirt]
 
-<img src="C:\Users\O.C User\Desktop\bora\Study\JavaScript\Dream Coding\MINI-SHOPPING\Mini shopping-mall\filter2.JPG" alt="filter2" style="zoom:67%;" />
+![filter2](D:\git\project\project\Mini shopping-mall\filter2.JPG)
