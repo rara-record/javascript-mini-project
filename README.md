@@ -6,4 +6,4 @@
 ![shoppingmall](https://user-images.githubusercontent.com/70184893/139431418-099296cd-d6e2-4c53-90ef-e9d1c18388b1.png)
 
 ### 2. 달력만들기 Calendar📅
-![calendar](https://user-images.githubusercontent.com/70184893/139432272-9df38eb2-5a27-4edb-8f62-696d135a345f.png)
+![calendar](https://user-images.githubusercontent.com/70184893/139432552-35e9fe5a-64d2-479e-acaa-4332fab5e57c.png)
