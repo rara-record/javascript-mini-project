@@ -1,2 +1,2 @@
-# project
-javascript and jquery mini-project
+# project🤡 
+javascript and jquery mini-project !! 
