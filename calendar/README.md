@@ -1,4 +1,5 @@
 # Calendar
+![calendar](https://user-images.githubusercontent.com/70184893/139432552-35e9fe5a-64d2-479e-acaa-4332fab5e57c.png)
 
 ## 기술
 HTML, CSS, Vanilla JS 연습용 웹사이트
