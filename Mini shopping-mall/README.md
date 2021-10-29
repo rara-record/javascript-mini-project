@@ -1,6 +1,4 @@
 # Mini shopping-mall
-![shoppingmall](https://user-images.githubusercontent.com/70184893/139431418-099296cd-d6e2-4c53-90ef-e9d1c18388b1.png)
-
 ## 기술
 
 HTML, Vanilla JS, CSS 연습용 웹사이트
